@@ -1,0 +1,165 @@
+﻿body {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+	line-height: 1.5em;
+}
+body, div, input, select, textarea, table {
+	font-family: tahoma, arial, helvetica, verdana, 'trebuchet ms', sans-serif;
+	font-size: 12px;
+}
+
+b { font-size: 110%; }
+em { color: red; }
+
+#maincontainer	{
+	text-align: left;
+	width: 970px; /*Width of main container*/
+	margin: 0 auto; /*Center container on page*/
+}
+
+#topsection{
+	height: 50px;
+	margin: 0 auto;
+	background-image: url("../images/header_demo.jpg");
+}
+div.blocktext {
+	display: inline;
+    float: right;
+    margin: -35px 5px -7px 0;
+}
+#find input {
+	padding: 18px 5px 0 0;
+	text-align: right;
+	float: right;
+}
+
+#spacer {
+	height: 8px;
+}
+
+#contentwrapper	{
+	float: left;
+	width: 100%;
+}
+
+#line {
+	width: 970px;
+	border-bottom: 1px solid #CCC;
+}
+
+#leftcolumn {
+	float: left;
+	/*text-align: left;*/
+	width: 200px; /*Width of left column*/
+	margin-left: -980px; /*Set left margin to -(MainContainerWidth)*/
+	background: #FFF;
+}
+
+#contentcolumn {
+	margin-left: 200px; /*Set left margin to LeftColumnWidth*/
+	min-height: 250px;
+	/*background: #F3F8F3;*/
+}
+
+#footer {
+	height: 25px;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 10px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+#footer a {
+	color: #3B5998;
+}
+
+#contentcolumn a {
+	color: #3B5998;
+	font-weight: bold;
+	font-size: 10px;
+	height: 25px;
+
+}
+
+
+.innertube {
+	margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 0;
+}
+
+fieldset {
+	width: 930px;
+}
+legend { 
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #0000BB;
+	color: #ffffff;
+	height: 18px;
+}
+#edit { 
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #669EA8;
+	color: #ffffff;
+	padding: 5px 0 5px 5px;
+	margin-bottom: 5px;
+}
+#tambah { 
+	font-weight: bold;
+	font-size: 12px;
+	background-color: gray;/*#3F70AB;*/
+	color: #ffffff;
+	padding: 5px 0 5px 5px;
+	margin-bottom: 5px;
+}
+input, textarea, select {
+	padding-top: 0px;
+}
+input.readonly {
+	background-color: #EEEEEE;
+	border: 1px solid;
+}
+textarea.readonly {
+	background-color: #F0F0F0;
+	border: 1px solid;
+}
+
+a:link { text-decoration: none; color: #0000FF; }
+a:visited { text-decoration: none; color: #0000FF; }
+a:hover { text-decoration: underline; color: #FF0000; }
+
+form.login {
+	width: 250px;
+	/*font-size: 1.0em;*/
+	/*background: #99CCFF;#D9C16F*/
+	background: #EDFEF2;/*#CCE4EC;*/
+	padding: 5px 15px;
+	margin: 0 auto;
+	margin-top: 5px;
+	border: 1px solid #2c7286;/*#333;*/
+}
+form.login label {
+	display: inline-block;
+	line-height: 1.8;
+	text-align: right;
+	width: 100px;
+	padding-right: 5px;
+	/*cursor: hand;*/
+}
+h3 {
+	margin: 10px 0 5px 0;
+}
+
+.button {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-weight:bolder;
+	color:#fff;
+	background-color:#3B5998;	
+	padding-left:2px;
+	padding-right:2px;
+}

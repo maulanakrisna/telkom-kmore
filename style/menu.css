@@ -1,0 +1,109 @@
+﻿/* for main menu */
+#nav {
+	float: left;
+	padding: 5px 0px;
+	color: #2C7286;
+	font-weight: bold;
+}
+
+#show {
+	margin-left: 500px; /*Set left margin to LeftColumnWidth*/
+	text-align: right;
+	background: #FFF;/*#77B7CA;*/
+	font-weight: normal;
+	color: #000000;
+	padding: 5px 5px 0 0;
+}
+
+a.menu:link { text-decoration: none; color: #2c7286;/*#3b8398;*/ }
+a.menu:visited { text-decoration: none; color: #2c7286;/*#3b8398;*/ }
+a.menu:hover { text-decoration: underline; color: #2c7286;/*#3b8398;*/ }
+
+/*minitabs start here*/
+ul#minitabs {
+	list-style: none;
+	margin: -25px 0 0 0;
+	padding: 5px 0;
+	/*border-bottom: 1px solid #CCC;*/
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+}
+ul#minitabs li {
+	display: inline;
+	margin: 0 5px;
+}
+ul#minitabs a {
+	text-decoration: none;
+	padding: 0 0 3px;
+	border-bottom: 1px solid #FFF;
+	color: #53C8B9;
+}
+ul#minitabs a#current {
+	border-color: #F60;
+	color: #2c7286;
+}
+ul#minitabs a:hover {
+	border-color: #F60;
+	color: #2c7286;
+}
+/* end of main menu */
+
+
+/*lefttabs start here*/
+ul#lefttabs {
+	list-style: none;
+	margin: 5px 0;
+	padding: 5px 5px;
+	font-size: 8pt;
+	font-weight: bold;
+	white-space: nowrap;
+}
+ul#lefttabs li {
+	margin: 0 5px
+}
+ul#lefttabs a {
+	text-decoration: none;
+/*	border-bottom: 2px solid #FFF; */
+	color: #000;/*#53C8B9;#000FF*/
+	font-weight:lighter;
+	width:50px;
+	padding:2px 15px 2px 15px;
+}
+ul#lefttabs a#current {
+	color: #000;
+	font-weight:bold;
+	background-color:#d8dfea;
+}
+ul#lefttabs a:hover {
+/*	border-color: #F60; */
+	color: #000;
+	background-color:#eff2f7;
+}
+/* end of lefttabs */
+
+/*lefttabs2 start here*/
+ul#lefttabs2 {
+	list-style: url("../images/arroy_right.jpg");
+	margin: 0 7px;
+	padding: 0px 5px;
+	/*font-weight: bold;*/
+	white-space: nowrap
+}
+ul#lefttabs2 li {
+	margin: 0 5px;
+}
+ul#lefttabs2 a {
+	text-decoration: none;
+	border-bottom: 2px solid #FFF;
+	color: #53C8B9
+}
+ul#lefttabs2 a#current {
+	color: #2c7286
+}
+ul#lefttabs2 a:hover {
+	border-color: #F60;
+	color: #2c7286
+}
+/* end of lefttabs */
+

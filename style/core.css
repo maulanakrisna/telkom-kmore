@@ -1,0 +1,13 @@
+form.cmxform h1, h2 { font-family: tahoma, verdana, 'trebuchet ms', arial; padding: 10px; margin: 0 }
+form.cmxform h1 { font-size: large }
+	
+form.cmxform p { margin: 10px 0; }
+
+form.cmxform li { margin-left: 10px; }
+
+form.cmxform h3 { margin: 1em 0 0; }
+form.cmxform h1 { font-size: 2em; }
+form.cmxform h2 { font-size: 1.8em; }
+form.cmxform h3 { font-size: 1.6em; }
+form.cmxform h4 { font-size: 1.4em; }
+form.cmxform h5 { font-size: 1.2em; }

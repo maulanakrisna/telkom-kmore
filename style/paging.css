@@ -1,0 +1,12 @@
+/* paging style */
+/*
+table.data { background-color:#fff; color:#213243; }
+.data th { background-color:gray; color:#ffffff }
+.data td { padding: 0 5px; }
+*/
+.pagingDiv { width:500px; height:20px }
+.pNo { float:left; width:20px; margin-left:3px; margin-right:3px; border:0px solid black; }
+/*
+a {text-decoration:none; }
+a:hover {text-decoration:underline; }
+*/
